@@ -1,0 +1,26 @@
+{
+  "name": "newsite",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "serve": "parcel index.html --port $PORT --log-level 3",
+    "prebuild": "rm -rf dist && cp -R ./assets ./dist",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krongkarnnt/newsite.git"
+  },
+  "keywords": [],
+  "author": "Krongkarn Nt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krongkarnnt/newsite/issues"
+  },
+  "homepage": "https://github.com/krongkarnnt/newsite#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.4",
+    "sass": "^1.14.2"
+  }
+}
