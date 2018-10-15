@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";AACEA,QAAQC,IAAI","file":"newsite.3a6fca86.map","sourceRoot":"..","sourcesContent":["(function(){\n  console.log('test');\n  \n})();"]}
